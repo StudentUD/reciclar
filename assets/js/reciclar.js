@@ -52,10 +52,10 @@ function preparacao() {
     tempo_preparar--;
 
     if (tempo_preparar == 0) {
-        $("#preparar").html('<p style="font-size:30px;">Valendo...</p>');
+        $("#preparar").html('<p style="font-size:30px;">Ya  </p>');
     }
     else {
-        $("#preparar").html('<p>Prepare-se...</p><h1>' + tempo_preparar + '</h1>');
+        $("#preparar").html('<p>Preparado</p><h1>' + tempo_preparar + '</h1>');
     }
 
     if (tempo_preparar < 0) {
